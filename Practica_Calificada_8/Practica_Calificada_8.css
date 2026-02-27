@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 56);
+    color: white;
+    font-family: sans-serif;
+}
+
+.user_cards{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 400px;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 4px;
+}
+table{
+    margin: 0 auto;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#task_list {
+    border: 1px solid;
+    margin: 20px auto;
+    padding: 10px 20px;
+    width: 400px;
+}
+
+.see_More {
+    border: 1px solid;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+.see_More:hover{
+    background: #fff;
+    color: rgb(12, 12, 56);
+}
+
+#app_box{
+    border: 1px solid;
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.change {
+    background-color: rgb(12, 12, 56);
+    color:#fff;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
